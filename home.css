@@ -1,0 +1,255 @@
+body{
+	background: linear-gradient(130deg, #4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b, #ff0000);
+	height: 100%;
+  width: 100%;
+}
+body:hover{
+  transition: background .5s linear;
+}
+.ml12 {
+		text-align: center;
+	  font-weight: 200;
+	  font-size: 1.8em;
+	  text-transform: uppercase;
+	  letter-spacing: 0.5em;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+ 
+.checkLabel{
+	padding: 5px;
+	color: black;
+	border-bottom: solid rgb(219, 22, 22);
+}
+.Inputlabel{
+  text-align: left;
+}
+
+.form{
+	text-align: center;
+}
+
+.infor{
+	width: 300px;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 22px;
+	border: solid lightgreen;
+	box-shadow: 2px 2px 12px 2px lightgreen;
+	border-radius: 10px;
+	background: #eeeeee
+}
+.infor_box{
+	margin-top: 15px;
+}
+.infor_box:hover{
+	font-size: 25px;
+	border: solid red 2px;
+}
+.saveButton{
+
+	margin-top: 15px;
+	padding: 10px;
+	color: white;
+	height: 40px;
+	width: 150px;
+	background:  linear-gradient(130deg, #ff2525,#25d6ff);
+	border-radius: 10px;
+	margin-left: 45px;
+  border: none;
+  
+	}
+.saveButton:hover{
+	color: black;
+	cursor: pointer;
+  background:  linear-gradient(130deg, #25d6ff, #ff2525);
+  transition: background .5s linear;
+}
+/* .form_group{
+	text-align: center;
+	margin-top: 15px;
+
+} */
+
+.hr_h{
+	width: 300px;
+	height: 3px;
+	border: none;
+	margin-top: 15px;
+	text-align: center;
+	background:  linear-gradient(90deg, #ff2525,#25d6ff);
+}
+.bodyHead{
+  display: inline-flex;
+  margin-left: 13%;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+/*chap tomon Forma orqasi uchun*/
+.bodyPlace{
+	height: auto;
+	width: 310px;
+	padding: 30px;
+	border-radius: 5px;
+	background: white;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 12px 15px;
+
+}
+
+/*O`ng tomon orqasi uchun*/
+.bodyPlaceRight{
+	margin-left: 60px;
+	padding: 30px;
+	border-radius: 5px;
+	width: 450px;
+	background: white;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 12px 15px;
+}
+
+.btn-info{
+  background-color: rgb(59, 57, 143); 
+  border: 2px solid rgb(59, 57, 143); 
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn-info:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(59, 57, 143); 
+  transition: background .5s linear 
+}
+
+.btn-danger{
+  background-color: rgb(243, 9, 9);
+  border: 2px solid rgb(243, 9, 9);
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+}
+.btn-danger:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(243, 9, 9);
+  transition: background .5s linear 
+  
+}
+#success{
+  background-color: #44ce7b;
+  color: white;
+  font-size: 18px;
+  border: #023516;
+  width: 100%;
+  height: 30px;
+}
+#danger{
+  background-color: #e9baba;
+  color: white;
+  font-size: 18px;
+  border: #581111;
+  width: 100%;
+  height: 50px;
+}
+
+
+/*button uchun */
+/*.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  min-width: 300px;
+  min-height: 60px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #4FD1C5;
+background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  }
+
+button::before {
+content: '';
+  border-radius: 1000px;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  border: 6px solid #00FFCB;
+  box-shadow: 0 0 60px rgba(0,255,203,.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+.button:hover, .button:focus {
+  color: #313133;
+  transform: translateY(-6px);
+}
+
+button:hover::before, button:focus::before {
+  opacity: 1;
+}
+
+button::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  border: 6px solid #00FFCB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+button:hover::after, button:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+*/
